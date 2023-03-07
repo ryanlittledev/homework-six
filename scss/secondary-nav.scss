@@ -1,0 +1,42 @@
+.secondary-nav {
+    height: 10px;
+    width: 100%;
+    position: relative;
+  
+    nav {
+        max-width: 980px;
+        height: 90px;
+        margin: 0 auto;
+        border-bottom: solid 2px black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo {
+        position: relative;
+        width: 92px;
+        height: 42px;
+        border: solid 2px black;
+    }
+    .logo span {
+        position: absolute;
+        bottom: -5px;
+        color: black;
+        font-size: 20px;
+    }
+    .links {
+        width: 500px;
+        display: flex;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+    }
+    .links a {
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+  }
+  .links span {
+        color: $site-blue;
+  }
+
+}

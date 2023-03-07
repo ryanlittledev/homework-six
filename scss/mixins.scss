@@ -1,0 +1,15 @@
+@mixin site-blue-button($bg: $site-blue, $pad: $button-padding, $radius: 10px){
+    text-decoration: none;
+    background-color: $bg;
+        color: white;
+        padding: $pad;
+        border-radius: $radius
+
+}
+
+@mixin background-image-format{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}

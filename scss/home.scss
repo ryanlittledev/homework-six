@@ -1,0 +1,196 @@
+.booking-form {
+    max-width: 818px;
+    margin: 100px auto 0 auto;
+  }
+  .booking-form .header {
+    font-size: 60px;
+  }
+  .booking-form .form {
+    padding-top: 20px;
+  }
+  .booking-form .form .input-wrapper {
+    max-width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .booking-form .form .input-wrapper .name-field {
+    width: 344px;
+    padding: 10px;
+    outline: solid 1px #79ADDC;
+    border: none;
+    display: inline-block;
+    font-family: GillSansLight;
+  }
+  .booking-form .form .input-wrapper .email-field {
+    width: 453px;
+    padding: 10px;
+    margin-left: 20px;
+    outline: solid 1px #79ADDC;
+    border: none;
+    display: inline-block;
+    font-family: GillSansLight;
+  }
+  .booking-form .form .input-wrapper-two {
+    margin-top: 20px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .booking-form .form .input-wrapper-two .country-field {
+    width: 344px;
+    padding: 10px;
+    outline: solid 1px #79ADDC;
+    border: none;
+    display: inline-block;
+    font-family: GillSansLight;
+  }
+  .booking-form .form .input-wrapper-two .hotel-field {
+    width: 453px;
+    padding: 10px;
+    margin-left: 20px;
+    outline: solid 1px #79ADDC;
+    border: none;
+    display: inline-block;
+    font-family: GillSansLight;
+  }
+  .booking-form .form .input-wrapper-three {
+    margin-top: 20px;
+    width: 100%;
+    position: relative;
+    font-size: 18px;
+    font-family: GillSansLight;
+  }
+  .booking-form .form .input-wrapper-three .check-in {
+    width: 698px;
+    padding: 10px;
+    outline: solid 1px #79ADDC;
+    border: none;
+    margin-left: 50px;
+    font-family: GillSansLight;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .booking-form .form .input-wrapper-three .icon {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    width: 18.99px;
+  }
+  .booking-form .form .input-wrapper-four {
+    margin-top: 20px;
+    width: 100%;
+    position: relative;
+    font-size: 18px;
+    font-family: GillSansLight;
+  }
+  .booking-form .form .input-wrapper-four .check-out {
+    width: 698px;
+    padding: 10px;
+    outline: solid 1px #79ADDC;
+    border: none;
+    margin-left: 38px;
+    font-family: GillSansLight;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .booking-form .form .input-wrapper-four .icon {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    width: 18.99px;
+  }
+  .booking-form .form .input-wrapper-five {
+    margin-top: 20px;
+    width: 100%;
+    position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    font-size: 18px;
+    font-family: GillSansLight;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .booking-form .form .input-wrapper-five .adult-holder {
+    font-family: GillSansLight;
+    width: 224px;
+  }
+  .booking-form .form .input-wrapper-five .adult-holder .adult {
+    margin-left: 75px;
+    width: 103px;
+    padding: 10px;
+    outline: solid 1px #79ADDC;
+    border: none;
+    font-family: GillSansLight;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .booking-form .form .input-wrapper-five .children-holder {
+    font-family: GillSansLight;
+    width: 224px;
+  }
+  .booking-form .form .input-wrapper-five .children-holder .children {
+    margin-left: 55px;
+    width: 103px;
+    padding: 10px;
+    outline: solid 1px #79ADDC;
+    border: none;
+    font-family: GillSansLight;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .booking-form .form .input-wrapper-five .rooms-holder {
+    font-family: GillSansLight;
+    width: 224px;
+  }
+  .booking-form .form .input-wrapper-five .rooms-holder .rooms {
+    margin-left: 65px;
+    width: 103px;
+    padding: 10px;
+    outline: solid 1px #79ADDC;
+    border: none;
+    font-family: GillSansLight;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .booking-form .form .input-wrapper-five .icon1 {
+    position: absolute;
+    top: 5px;
+    left: 200px;
+  }
+  .booking-form .form .input-wrapper-five .icon2 {
+    position: absolute;
+    top: 5px;
+    right: 310px;
+  }
+  .booking-form .form .input-wrapper-five .icon3 {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+  }
+  .booking-form .form .input-wrapper-six {
+    margin-top: 20px;
+    width: 100%;
+    height: 192px;
+    padding: 10px;
+    outline: solid 1px #79ADDC;
+  }
+  .booking-form .form .input-wrapper-six .message {
+    font-family: GillSansLight;
+    border: none;
+  }
+  .booking-form button {
+    margin-top: 30px;
+    margin-bottom: 70px;
+    background-color: #79ADDC;
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    font-family: GillSansLight;
+    border-radius: 30px;
+    cursor: pointer;
+  }

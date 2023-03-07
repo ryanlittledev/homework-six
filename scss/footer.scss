@@ -1,0 +1,46 @@
+footer {
+    max-width: 100%;
+    min-height: 100px;
+    background-color: #79ADDC;
+    position: relative;
+
+    .centered-content {
+      padding-top: 25px;
+      max-width: 980px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;  
+    }
+    .centered-content .logo {
+      position: relative;
+      width: 92px;
+      height: 42px;
+      border: solid 2px white;
+    }
+    .centered-content .logo span {
+      position: absolute;
+      bottom: -5px;
+      color: white;
+      font-size: 20px;
+      font-family: GillSansReg;
+    }
+    .centered-content .copyright {
+      padding-top: 20px;
+      color: white;
+      font-size: 12px;
+    }
+    .centered-content .social-media {
+      width: 112px;
+      display: flex;
+      align-items: center; 
+      justify-content: space-between;
+              
+    }
+    .centered-content .social-media .icon {
+      height: 22px;
+      width: 22px;
+      cursor: pointer;
+    }
+  }
+  

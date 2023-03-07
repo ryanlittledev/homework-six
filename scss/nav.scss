@@ -1,0 +1,32 @@
+nav{
+    width: $site-nav-width;
+    height: $site-nav-height;
+    border-bottom: solid 2px #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    padding-top: 45px;
+    left: 150px;
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .nav-logo{
+        border: solid white 2px;
+    }
+
+    .topnav-right{
+        padding-left: 250px;
+        justify-content: space-between;
+        padding-right: 10px;
+    }
+
+    span {
+        color: $site-blue;
+    }
+
+
+
+}

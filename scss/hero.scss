@@ -1,0 +1,32 @@
+hero{
+    background-image: linear-gradient(45deg,
+    rgba(0, 0, 0, 0.40),
+    rgba(0, 0, 0, 0.40)), url(../images/hero.jpg);
+    @include background-image-format;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 500px;
+    
+
+    .callout{
+        font-size: 30px;
+        text-align: center;
+        width: 800px;
+    }
+
+    h1{
+        margin-bottom: 20px;
+        color: $site-white;
+    }
+
+    p{
+        color: $site-white;
+        margin-bottom: 50px;
+    }
+
+    a{
+        @include site-blue-button($site-blue, $button-padding, 0px 0px);
+        
+    }
+}
